@@ -11,4 +11,8 @@ public class KafkaListener {
     public void onEventByString(@Payload String productChanged){
         System.out.println(productChanged);
     }
+
+
+
+
 }
